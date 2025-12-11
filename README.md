@@ -50,9 +50,6 @@ A custom IAM role was created with:
 ]
 }
 
-shell
-Copy code
-
 ### Permissions Policy (Custom Managed Policy)
 {
 "Version": "2012-10-17",
@@ -65,8 +62,6 @@ Copy code
 ]
 }
 
-yaml
-Copy code
 
 Policy name: **VPCFlowLogsS3PutObjectPolicy**
 
@@ -97,8 +92,6 @@ AWSLogs/
 └── 2025/12/01/
 └── <logfiles>.log.gz
 
-yaml
-Copy code
 
 Downloaded and extracted `.log.gz` files to view sample entries.
 
@@ -108,9 +101,6 @@ Downloaded and extracted `.log.gz` files to view sample entries.
 
 ### Raw Log Line:
 2 890742569078 eni-063ffc72aec32784c 167.94.146.46 172.31.22.45 22072 49089 6 1 60 1764585588 1764585601 REJECT OK
-
-yaml
-Copy code
 
 ### Explanation:
 
